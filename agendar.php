@@ -1,17 +1,22 @@
+<!docttype html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title> Studio Vanessa Merquiades</title>
-        <link type="text/css" href="assets/css/style.css" rel="stylesheet"/>
-        <script type="text/javascript" src="assets/js/script.js"></script>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
+        <title>Agendar serviço</title>
+        <style type="text/css">
+
+            
+        </style>
     </head>
 
     <body>
 
-    <header class="row justify-content-center" >
+    
+        <header class="row justify-content-center" >
             
             
 
@@ -21,8 +26,8 @@
                 </div>
                 <div class="col-7 row align-items-center " id="menuz" >
                 <ul class="nav align-items-center justify-content-center">
-                    <li class="nav-item"><a class="nav-link" href="index.php" id="homehome">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link"  href="agendar.php" >AGENDAR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php" id="agendarhome">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="agendar.php" id="agendarservicos">AGENDAR</a></li>
                     <li class="nav-item"><a class="nav-link"  href="sobre.php" id="agendarquemsomos">QUEM SOMOS</a></li>
                     <li class="nav-item"><a class="nav-link"  href="" id="agendarlocalizacao">LOCALIZAÇÃO</a></li>
                     <li class="nav-item"><a class="nav-link"  href="#" id="agendarcontato">CONTATO</a></li>
@@ -32,49 +37,11 @@
             </div>
 
         </header>
+        <section class="construcao">
+            
+        </section>
 
-    <section class="row justify-content-center">
-
-    <div class="container row mt-5 mb-5">
-
-
-    
-        <div id="carouselExampleControls" class="carousel slide container col" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/foto2.png" alt="Primeiro Slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/foto3.png" alt="Segundo Slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/foto1.png" alt="Terceiro Slide">
-                </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
-        </div>
-
-        <div class="container row col justify-content-center">
-            <div class="row align-items-end justify-content-center ml-5 pl-5 pb-5">
-                <h1 class="text-warning text-sm-left">O loiro que sempre sonhou, agora você pode ter. </h1>
-            </div>
-
-            <div class="row align-items-start justify-content-center">
-                <a class="btn btn-warning" href="agendar.php" role="button">AGENDE AGORA UM DE NOSSOS SERVIÇOS</a>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <footer class="row justify-content-center align-items-center">
+        <footer class="row justify-content-center align-items-center">
             <div class="row container justify-content-center align-items-center" id="rodape">
 
             
@@ -115,8 +82,9 @@
 
             </div>
         </footer>
-
-    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"> </script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"> </script>
+        
+        <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"> </script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"> </script>
     </body>
+    
 </html>
